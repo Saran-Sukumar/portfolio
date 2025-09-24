@@ -2,16 +2,18 @@
    LIGHT THEME — EDIT THESE 5
    ============================= */
 :root {
-  --bg: #EFDDFD;
+  --bg: #efddfd;
   /* page background */
   --text: #210934;
   /* main text */
-  --surface: #F6EAFF;
+  --surface: #f6eaff;
   /* cards, boxes, list items */
-  --nav: #36065B;
+  --nav: #36065b;
   /* navbar (dark bar) */
-  --accent: #7C3AED;
+  --accent: #7c3aed;
   /* links & primary buttons */
+  --hero: #f1e8ff;
+  /* jumbotron/hero bg */
 }
 
 /* =============================
@@ -21,12 +23,10 @@
 /* Auto-derived (you can ignore) */
 :root {
   --accent-hover: color-mix(in srgb, var(--accent) 85%, black);
-  --on-nav: #FFFFFF;
+  --on-nav: #ffffff;
   /* text on dark navbar */
-  --border: #E6D6FF;
+  --border: #e6d6ff;
   /* soft borders */
-  --hero: #F1E8FF;
-  /* jumbotron/hero bg */
 }
 
 /* ====== Page ====== */
@@ -48,11 +48,11 @@ body {
 }
 
 .site-nav .nav-link:hover {
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .site-nav .navbar-toggler {
-  border-color: rgba(255, 255, 255, .35);
+  border-color: rgba(255, 255, 255, 0.35);
 }
 
 .site-nav .navbar-toggler-icon {
@@ -71,7 +71,7 @@ body {
   background: var(--surface);
   color: var(--text);
   border: 1px solid var(--border);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .box {
