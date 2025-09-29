@@ -1,69 +1,61 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Template</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-
-    <link href="style.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saran's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 
-<!-- Toggle light-page ↔ dark-page -->
-
 <body class="light-page">
+  <!-- Navbar -->
+  <div id="nav-placeholder"></div>
 
-    <!-- Navbar gets added here -->
-    <div id="nav-placeholder"></div>
+  <main class="container py-4">
+    <h1 class="mb-3">Hi, I'm Saran 👋</h1>
+    <img src="your-photo.jpg" alt="Photo of Saran" class="img-fluid rounded mb-3" style="max-width: 200px;">
+    <p>I'm a sophomore at <strong>MSU Denver</strong>, majoring in <a href="https://www.msudenver.edu/computer-science/">Computer Science Comprehensive</a>. I approach tech with curiosity and creativity, and I’ve been diving into programming through hands-on projects and real-world problem solving.</p>
 
-    <!-- Main content -->
-    <main class="container py-4">
-        <h1 class="mb-2">Simple Theme in Action</h1>
-        <p class="mb-3">
-            This paragraph uses the page text color. Here’s a <a href="#">content link</a>.
-        </p>
-
-        <!-- Hero -->
-        <section class="p-5 mb-4 bg-body-tertiary rounded-3">
-            <h2 class="display-6 mb-3">Hero Section</h2>
-            <a class="btn btn-primary" href="#">Get Started</a>
-        </section>
-
-        <!-- Box -->
-        <div class="box mb-4">
-            <h3 class="h5">Plain Box</h3>
-            <p class="mb-0">This is a plain div styled as a surface. <a href="#">Read more</a></p>
-        </div>
-
-        <!-- Card -->
-        <div class="card shadow-sm mb-4" style="max-width: 40rem;">
-            <div class="card-body">
-                <h4 class="card-title h5">Card Title</h4>
-                <p class="card-text">Cards pick up the surface/background and text from the theme.</p>
-                <a class="btn btn-primary" href="#">Card Action</a>
-            </div>
-        </div>
-
-        <!-- List group -->
-        <ul class="list-group" style="max-width: 28rem;">
-            <li class="list-group-item">First item</li>
-            <li class="list-group-item">Second item</li>
-            <li class="list-group-item">Third item</li>
+    <h2 class="mt-4">Skills</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>Technical Skills</h5>
+        <ul>
+          <li>🐧 Linux</li>
+          <li>☕ Java</li>
+          <li>🐍 Python</li>
+          <li>💻 C++</li>
         </ul>
-    </main>
+      </div>
+      <div class="col-md-6">
+        <h5>Core Strengths</h5>
+        <ul>
+          <li>Teamwork (learned from JV football)</li>
+          <li>Problem-solving under pressure</li>
+          <li>Creative thinking</li>
+        </ul>
+      </div>
+    </div>
 
+    <h2 class="mt-4">About Me</h2>
+    <p>I love skiing 🏂, baking 🍪, and exploring digital culture. Here are a couple links that reflect my interests:</p>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=Z9eMk051b7g">Freestyle Ski Tricks</a></li>
+      <li><a href="https://www.seriouseats.com/chocolate-chip-cookie-recipes">Cookie Recipes</a></li>
+    </ul>
 
+    <h2 class="mt-4">Gallery</h2>
+    <div class="row">
+      <div class="col-md-4"><img src="gallery1.jpg" alt="Flashcard App Screenshot" class="img-fluid rounded"></div>
+      <div class="col-md-4"><img src="gallery2.jpg" alt="Flashcard App Screenshot 2" class="img-fluid rounded"></div>
+    </div>
+  </main>
 
-
-    <script>
-        // Load only the #site-nav element
-        $("#nav-placeholder").load("navbar.html #site-nav");
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    $("#nav-placeholder").load("navbar.html #site-nav");
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
